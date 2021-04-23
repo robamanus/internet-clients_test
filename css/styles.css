@@ -1,0 +1,20 @@
+.minus{
+	display:block;
+	position:relative;
+}
+.plus{
+	display:block;
+	position:relative;
+}
+.minus::before{
+	content: "-";
+}
+.plus::before{
+	content: "+";
+	cursor:pointer;
+}
+span{
+	position: absolute;
+    left: 10px;
+    top: 0;
+}
